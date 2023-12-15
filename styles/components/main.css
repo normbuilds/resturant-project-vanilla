@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  width: 20ch;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.hero-left span {
+  color: #72ea62;
+  font-weight: 900 !important;
+}
+.hero-left p {
+  font-size: 1.5rem;
+  width: 30ch;
+  line-height: 1.2;
+  font-family: "Nunito Sans", sans-serif;
+  color: #5a5a5a;
+}
+
+.hero-right {
+  max-width: 700px;
+}
+.hero-img {
+  width: 600px;
+  height: 650px;
+}

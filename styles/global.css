@@ -1,0 +1,59 @@
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset box-sizing to border-box for consistent sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset font styles */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Reset heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* Reset list styles */
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Reset image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset form styles */
+input,
+select,
+textarea {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  font-size: 16px;
+}
+
+/* Reset button styles */
+button {
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
