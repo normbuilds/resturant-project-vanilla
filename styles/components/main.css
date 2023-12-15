@@ -7,6 +7,7 @@
 .hero-left {
   display: flex;
   flex-direction: column;
+  margin-right: 40%;
 }
 .hero-left h1 {
   font-size: 3rem;
@@ -26,11 +27,72 @@
   font-family: "Nunito Sans", sans-serif;
   color: #5a5a5a;
 }
+.order {
+  margin-top: 2.4rem;
+}
+.play {
+  width: 100px;
+  height: 100px;
+  margin-top: 1.6rem;
+}
+.video {
+  background-color: white;
+  color: black;
+  padding: 0.3rem 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  border-radius: 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  text-transform: capitalize;
+}
+.main-btns {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+}
 
 .hero-right {
-  max-width: 700px;
+  max-width: 650px;
+  height: auto;
 }
 .hero-img {
   width: 600px;
   height: 650px;
+  position: absolute;
+  top: 5%;
+  left: 52%;
+
+  z-index: 0;
 }
+.word-bubble {
+  position: absolute;
+  z-index: 1;
+  top: 14%;
+  left: 45%;
+}
+.ratings-container {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  display: flex;
+  gap: 3rem;
+}
+
+.rating-card {
+  background-color: white !important;
+  padding: 1rem !important;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 10px 10px 100px 0px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 10px 10px 100px 0px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 10px 10px 100px 0px rgba(0, 0, 0, 0.88);
+}
+/* @media only screen and (max-width: 768px) {
+  .hero-img {
+    width: 500px;
+    height: 500px;
+  }
+} */

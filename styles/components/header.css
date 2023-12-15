@@ -61,15 +61,52 @@ header {
   margin-top: 0.3rem;
   /* flex: 2; */
 }
-
-.header-btn {
-  background-color: #72ea62;
-  color: white;
-  padding: 0.3rem 1.5rem;
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  border: 1px solid red;
+  display: none;
+  justify-content: center;
+  width: 600px;
+  z-index: 2;
+  padding: 1rem;
+}
+.menu-item {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px solid black;
+  padding: 1rem;
+  align-items: center;
+}
+.menu-item h6 {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 800;
-  border-radius: 1.5rem;
-  font-size: 1.2rem;
-  border: none;
-  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  border: 1px solid red;
+  display: none;
+  justify-content: center;
+  width: 600px;
+  z-index: 2;
+  padding: 1rem;
+}
+.service-item {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px solid black;
+  padding: 1rem;
+  align-items: center;
 }

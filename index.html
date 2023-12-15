@@ -33,20 +33,90 @@
                 width="24"
                 height="18"
                 class="down-arrow"
+                id="menu-drop"
                 src="https://img.icons8.com/material-outlined/24/000000/expand-arrow--v2.png"
                 alt="expand-arrow--v2"
+                onclick="tgl()"
               />
             </a>
+            <div class="menu-wrapper" id="menu">
+              <div class="menu-item">
+                <img
+                  width="130px"
+                  height="130px"
+                  src="/public/img/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg"
+                  alt=""
+                />
+                <h6>Some Good Shit</h6>
+                <button class="theme-btn">order now!</button>
+              </div>
+              <div class="menu-item">
+                <img
+                  width="130px"
+                  height="130px"
+                  src="/public/img/ella-olsson-ZjEeMnDiq00-unsplash.jpg"
+                  alt=""
+                />
+                <h6>Some Good Shit</h6>
+                <button class="theme-btn">order now!</button>
+              </div>
+              <div class="menu-item">
+                <img
+                  width="130px"
+                  height="130px"
+                  src="/public/img/martin-widenka-tkfRSPt-jdk-unsplash.jpg"
+                  alt=""
+                />
+                <h6>Some Good Shit</h6>
+                <button class="theme-btn">order now!</button>
+              </div>
+            </div>
+
             <a href="#" class="menu-link"
               >Services
               <img
                 width="24"
                 height="18"
+                id="service-drop"
                 class="down-arrow"
                 src="https://img.icons8.com/material-outlined/24/000000/expand-arrow--v2.png"
                 alt="expand-arrow--v2"
+                onclick="srvTgl"
               />
             </a>
+            <div class="service-wrapper" id="service">
+              <div class="service-item">
+                <img
+                  width="130px"
+                  height="130px"
+                  src="/public/img/eiliv-aceron-ZuIDLSz3XLg-unsplash.jpg"
+                  alt=""
+                />
+                <h6>Some Good Shit</h6>
+                <button class="theme-btn">order now!</button>
+              </div>
+              <div class="service-item">
+                <img
+                  width="130px"
+                  height="130px"
+                  src="/public/img/ella-olsson-ZjEeMnDiq00-unsplash.jpg"
+                  alt=""
+                />
+                <h6>Some Good Shit</h6>
+                <button class="theme-btn">order now!</button>
+              </div>
+              <div class="service-item">
+                <img
+                  width="130px"
+                  height="130px"
+                  src="/public/img/martin-widenka-tkfRSPt-jdk-unsplash.jpg"
+                  alt=""
+                />
+                <h6>Some Good Shit</h6>
+                <button class="theme-btn">order now!</button>
+              </div>
+            </div>
+
             <a href="#" class="menu-link">Offers</a>
           </div>
         </div>
@@ -63,7 +133,7 @@
             src="https://img.icons8.com/ios/50/000000/shopping-cart--v1.png"
             alt="shopping-cart--v1"
           />
-          <button class="header-btn">contact</button>
+          <button class="theme-btn">contact</button>
         </div>
       </header>
       <!-- header end -->
@@ -79,17 +149,29 @@
             Craftmanship
           </p>
           <div class="main-btns">
-            <button class="order">Order Now</button>
+            <button class="theme-btn order">Order Now</button>
             <button class="video">Watch Now</button>
-            <img src="/public/img/play-btn.png" alt="" />
+            <img src="/public/img/play-btn.png" alt="" class="play" />
           </div>
         </div>
         <div class="hero-right">
+          <img src="/public/img/Group 15.png" alt="" class="word-bubble" />
           <img class="hero-img" src="/public/img/Group 20.png" alt="" />
+          <div class="ratings-container">
+            <div class="rating-card">
+              <img src="/public/img/Mask group.png" alt="" class="food" />
+              <img src="/public/img/Group 9.png" alt="" class="stars" />
+            </div>
+            <div class="rating-card">
+              <img src="/public/img/Mask group (1).png" alt="" class="food" />
+              <img src="/img/Group 21.png" alt="" class="stars" />
+            </div>
+          </div>
         </div>
       </section>
+
       <!-- main end -->
     </div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="/main.js" defer></script>
   </body>
 </html>
